@@ -1,0 +1,259 @@
+.bg_set {
+  background-image: url("london_op.png");
+  margin-top: 0px;
+}
+
+.tape {
+  background-image: url("cinema2.png");
+  margin-top: 50px;
+}
+.back_film {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+h6 {
+  color: #f2f2f2;
+  background: black;
+  font-size: 70px;
+  line-height: 74px;
+  font-weight: 700;
+  margin: 50px 40px 10px;
+  float: left;
+  padding: 10px;
+  font-family: "Libre Baskerville";
+  /* font-family: "Libre Baskerville"; */
+}
+
+h5 {
+  color: #f2f2f2;
+  background: black;
+  font-size: 50px;
+  line-height: 74px;
+  font-weight: 500;
+  margin: 100px 0px 10px;
+  float: left;
+  padding: 10px;
+  font-family: "Brush Script MT", cursive;
+  transform: rotate(-20deg);
+}
+
+h4 {
+  color: #f2f2f2;
+  background: black;
+  font-size: 50px;
+  line-height: 74px;
+  font-weight: 300;
+  margin-left: 40px;
+  margin-top: 250px;
+  margin-right: 600px;
+  float: left;
+  padding: 10px;
+  font-family: "Libre Baskerville";
+}
+
+#work_title {
+  float: left;
+  position: absolute;
+  width: 100%;
+}
+/* html,
+body {
+  overflow: hidden;
+} */
+
+.menu_toggle {
+  z-index: 900;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  height: 80px;
+  background-color: #f2f2f2;
+  border-bottom-right-radius: 100%;
+}
+
+.menu_toggle i {
+  color: #f2f2f2;
+}
+/* .menu_toggle .menu_open,
+.menu_toggle .menu_close {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -12px;
+  transition: transform 0.7s cubic-bezier(1, 0.005, 0.24, 1);
+}
+.menu_toggle .menu_open {
+  transform-origin: -100px -100px;
+} */
+/* .menu_toggle .menu_close {
+  transform: rotate(20deg);
+  transform-origin: -100px -160px; }*/
+
+.menu_items {
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700px;
+  background-color: black;
+}
+.menu_items li {
+  height: 60px;
+  margin-bottom: 30px;
+  /* transform: translateX(-300px); */
+  /* transition: transform 0.7s 0s cubic-bezier(1, 0.005, 0.24, 1); */
+}
+.menu_items li:nth-child(2) {
+  margin-left: 40px;
+}
+.menu_items li:nth-child(3) {
+  margin-left: 80px;
+}
+.menu_items a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #f2f2f2;
+  transition: color 0.2s;
+}
+.menu_items a .icon {
+  position: relative;
+  display: inline-block;
+  margin-right: 25px;
+  color: #f2f2f2;
+}
+.menu_items a .icon:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-left: -33px;
+  margin-top: -32px;
+  border-radius: 100%;
+  border: 2px solid #f2f2f2;
+  transition: border-color 0.2s;
+}
+.menu_items a:hover {
+  color: rgb(197, 116, 116);
+}
+.menu_items a:hover .icon:after {
+  border-color: rgb(197, 116, 116);
+}
+.menu_items a:active .icon {
+  color: #7a0b0b;
+}
+/* Let's open up the menu */
+/* .shazam {
+}
+.shazam .content {
+  transform: rotate(-30deg);
+}
+.shazam .menu_open {
+  transform: rotate(-20deg);
+}
+.shazam .menu_close {
+  transform: rotate(0);
+}
+.shazam .menu_items li {
+  transform: translateX(0);
+  transition: transform 0.35s 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.shazam .menu_items li:nth-child(2) {
+  transition-delay: 0.47s;
+}
+.shazam .menu_items li:nth-child(3) {
+  transition-delay: 0.48s;} */
+
+h1 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+body {
+  color: black;
+}
+/* .social i {
+  font-size: 20px;
+  background-color: #7a0b0b;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+} */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+nav {
+  float: right;
+  margin-left: 400px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 25px;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  /* finish me laterrrr 
+   background-color: white;
+  color: black;*/
+  color: lightblue;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 74px;
+  font-weight: 300;
+  float: left;
+  padding: 10px;
+  font-family: "Libre Baskerville";
+  color: white;
+  margin-top: 40px;
+}
+
+p {
+  padding-left: 30px;
+}
