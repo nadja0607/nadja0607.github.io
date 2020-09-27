@@ -231,15 +231,16 @@ h2 {
 
 .overlay {
   position: absolute;
-  top: 400px;
+  top: 280px;
   bottom: 0;
-  left: 300px;
-  right: 300px;
+  left: 310px;
+  right: 310px;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgba(48, 134, 120, 0.753);
-  padding-top: 200px;
+  background-color: #000000c2;
+  padding-top: 100px;
   margin-bottom: 0;
+  height: 200px;
 }
 
 #text {
