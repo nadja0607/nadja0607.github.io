@@ -99,7 +99,7 @@ h4 {
   padding: 15px;
   font-size: 20px;
   font-weight: 700px;
-  background-color: #2f3542;
+  background-color: black;
 }
 .menu_items li {
   height: 60px;
@@ -262,4 +262,12 @@ h2 {
 
 .container:hover .overlay {
   opacity: 1;
+}
+
+#backstage {
+  background-image: url(" backstage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
