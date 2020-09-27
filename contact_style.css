@@ -48,6 +48,21 @@ a {
   transition: 0.3s linear;
 }
 
+.fab {
+  font-size: 28px;
+  background: #ff6348;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.card:hover .fab {
+  background: none;
+  color: #ff6348;
+  transform: scale(1.6);
+}
 .card:hover .card-icon {
   background: none;
   color: #ff6348;
@@ -89,4 +104,11 @@ h6 {
   float: left;
   padding: 10px;
   font-family: "Libre Baskerville";
+}
+
+#contact_bg {
+  background-image: url("stripes.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
