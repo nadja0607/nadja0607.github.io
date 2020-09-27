@@ -9,7 +9,8 @@
   margin-top: 50px;
 }
 .back_film {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-image: url("cinema2.png");
 }
 
 h6 {
@@ -23,7 +24,10 @@ h6 {
   padding: 10px;
   font-family: "Libre Baskerville";
 }
-
+a {
+  text-decoration: none;
+  color: #ff6348;
+}
 h1 {
   color: #ff6348;
   margin-top: 30px;
@@ -33,7 +37,9 @@ h1 {
   font-weight: 500;
   font-size: 70px;
 }
-
+h3:hover {
+  color: #ff6348;
+}
 h5 {
   color: #f2f2f2;
   background: #2f3542;
@@ -134,10 +140,10 @@ h4 {
   transition: border-color 0.2s;
 }
 .menu_items a:hover {
-  color: rgb(197, 116, 116);
+  color: #ff6348;
 }
 .menu_items a:hover .icon:after {
-  border-color: rgb(197, 116, 116);
+  border-color: #ff6348;
 }
 .menu_items a:active .icon {
   color: #7a0b0b;
@@ -189,7 +195,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(197, 116, 116);
+  color: #ff6348;
 }
 
 h3 {
@@ -231,8 +237,8 @@ h2 {
 
 .overlay {
   position: absolute;
-  top: 280px;
-  bottom: 0;
+  top: 390px;
+  bottom: 10px;
   left: 310px;
   right: 310px;
   opacity: 0;
@@ -240,7 +246,7 @@ h2 {
   background-color: #000000c2;
   padding-top: 100px;
   margin-bottom: 0;
-  height: 200px;
+  height: 400px;
 }
 
 #text {
