@@ -263,11 +263,3 @@ h2 {
 .container:hover .overlay {
   opacity: 1;
 }
-
-#backstage {
-  background-image: url(" backstage.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
-}
