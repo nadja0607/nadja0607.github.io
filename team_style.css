@@ -1,0 +1,150 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #2f3542;
+  padding-top: 0;
+  margin: 0;
+}
+h3 a:hover {
+  color: #ff6348;
+}
+.logo {
+  width: 100px;
+  margin-left: 20px;
+}
+
+nav {
+  float: right;
+  margin-left: 400px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 25px;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff6348;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: "Libre Baskerville";
+}
+
+.team_box {
+  margin-left: 10px;
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.heading {
+  font-size: 60px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 74px;
+  font-weight: 300;
+  float: left;
+  padding: 10px;
+  font-family: "Libre Baskerville";
+  color: white;
+  margin-top: 40px;
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.profile {
+  flex-basis: 260px;
+}
+
+.profile .profile-img {
+  height: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.t-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 80px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1150px) {
+  .profiles {
+    flex-direction: column;
+  }
+  .profile {
+    text-align: center;
+    margin: 20px 60px 80px 60px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  }
+  .heading span {
+    font-size: 15px;
+  }
+  .profiles {
+    margin: 20px 0;
+  }
+  .profile p {
+    margin: 20px 10px 80px 10px;
+  }
+}
