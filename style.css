@@ -26,7 +26,7 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #ff6348;
+  color: white;
 }
 h1 {
   color: #ff6348;
@@ -207,9 +207,6 @@ h3 {
   font-family: "Libre Baskerville";
   color: white;
   margin-top: 40px;
-}
-
-p {
 }
 
 .center {
