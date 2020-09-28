@@ -89,12 +89,14 @@ h3 {
 .profiles {
   display: flex;
   justify-content: space-around;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 60px;
 }
 
 .profile {
-  flex-basis: 260px;
+  flex-basis: 350px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 .profile .profile-img {
@@ -103,6 +105,7 @@ h3 {
   filter: grayscale(100%);
   cursor: pointer;
   transition: 0.4s;
+  margin-left: 20px;
 }
 
 .profile:hover .profile-img {
@@ -112,6 +115,8 @@ h3 {
 .t-name {
   margin-top: 30px;
   font-size: 35px;
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .profile p {
@@ -119,6 +124,7 @@ h3 {
   margin-top: 20px;
   margin-right: 80px;
   text-align: left;
+  padding: none;
 }
 
 @media only screen and (max-width: 1150px) {
