@@ -1,5 +1,4 @@
 #navbar {
-  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -9,6 +8,8 @@
   background-color: #2f3542;
   padding-top: 0;
   margin: 0;
+  position: sticky;
+  z-index: 1;
 }
 h3 a:hover {
   color: #ff6348;
@@ -105,6 +106,7 @@ h3 {
   cursor: pointer;
   transition: 0.4s;
   margin-left: 20px;
+  position: relative;
 }
 
 .profile:hover .profile-img {
