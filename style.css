@@ -1,13 +1,11 @@
+/*this is the main style sheet I use for ediitng most of the pages*/
+
 .bg_set {
   /* background-color: #dab692; */
   background-image: url("london_op.png");
   margin-top: 0px;
 }
 
-.tape {
-  background-image: url("cinema2.png");
-  margin-top: 50px;
-}
 .back_film {
   background-color: black;
 }
@@ -23,10 +21,12 @@ h6 {
   padding: 10px;
   font-family: "Libre Baskerville";
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 h1 {
   color: #ff6348;
   margin-top: 30px;
@@ -36,9 +36,11 @@ h1 {
   font-weight: 500;
   font-size: 70px;
 }
+
 h3:hover {
   color: #ff6348;
 }
+
 h5 {
   color: #f2f2f2;
   background: #2f3542;
@@ -49,7 +51,7 @@ h5 {
   float: left;
   padding: 10px;
   font-family: "Brush Script MT", cursive;
-  transform: rotate(-20deg);
+  transform: rotate(-20deg); /*rotating letters a bit*/
 }
 
 h4 {
@@ -100,16 +102,20 @@ h4 {
   font-weight: 700px;
   background-color: black;
 }
+
 .menu_items li {
   height: 60px;
   margin-bottom: 30px;
 }
+
+/*making every item in the list slightly moved to the right*/
 .menu_items li:nth-child(2) {
   margin-left: 40px;
 }
 .menu_items li:nth-child(3) {
   margin-left: 80px;
 }
+
 .menu_items a {
   display: block;
   text-decoration: none;
@@ -118,12 +124,14 @@ h4 {
   color: #f2f2f2;
   transition: color 0.2s;
 }
+
 .menu_items a .icon {
   position: relative;
   display: inline-block;
   margin-right: 25px;
   color: #f2f2f2;
 }
+
 .menu_items a .icon:after {
   position: absolute;
   top: 50%;
@@ -138,12 +146,15 @@ h4 {
   border: 2px solid #f2f2f2;
   transition: border-color 0.2s;
 }
+
 .menu_items a:hover {
   color: #ff6348;
 }
+
 .menu_items a:hover .icon:after {
   border-color: #ff6348;
 }
+
 .menu_items a:active .icon {
   color: #7a0b0b;
 }

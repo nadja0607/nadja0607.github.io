@@ -1,4 +1,6 @@
+<!--this is my 30FF homepage that redirects to another components-->
 <!DOCTYPE html>
+<!--tried including the style in all different ways, in html within the style="" but also here-->
 <style>
     a:hover {
         color: #ff6348
@@ -7,12 +9,16 @@
 <html>
 
 <head>
+    <!--including the main stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <title>30FF</title>
+    <title>Welcome to 30FF!</title>
+    <!--was trying to figure out hoe to get a responsive page but more work has to be done-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 
 <body class="back_film">
+
+    <!--creating a div for my navigation bar and linking other pages-->
     <div id="navbar">
         <a a href="https://nadja0607.github.io/30FF.html">
             <img src="ff_logo.png" alt="logo" class="logo">
@@ -28,8 +34,10 @@
             </ul>
         </nav>
     </div>
+
     <div>
         <h1 style="margin-top:10px"> What do People Do -2020 Quarantine </h1>
+        <!--editing this div with JavaScript-->
         <div id="pink-div" style="padding:10px; margin-bottom:30px">
             <h2 id="welcome">The coronavirus also known as COVID-19, hit us by surprise, consumed us
                 within
@@ -40,9 +48,13 @@
                 spreading like wildfire.
             </h2>
         </div>
+
+        <!--created a div that contains and image and with the mouse hover we get text above-->
         <div class="container">
             <img src="cover_pic.png" class="center" display=block style="width:900px">
+            <!--here I create a 'block' that will put a shade on the image-->
             <div class="overlay">
+                <!--while here is the tex I display over-->
                 <div id="text">What Do People Do? came to life during this 2020 pandemic and social isolation. We wanted
                     to capture, in a funny and playful way, different things people do while in quarantine and inside
                     their
@@ -51,8 +63,11 @@
                 </div>
             </div>
         </div>
+
     </div>
+    <!--it matters where we include the script in out html, it has to be after the elements are loaded-->
     <script src="script.js"></script>
+
 </body>
 
 </html>

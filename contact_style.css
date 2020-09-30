@@ -1,16 +1,21 @@
+/* this is a style sheet for my contact page only */
+
+/*this refers to all the elements*/
 * {
   margin: 0;
   padding: 0;
   font-family: "Libre Baskerville", sans-serif;
   box-sizing: border-box;
 }
+
 body {
   background: #f1f1f1;
   min-height: 100vh;
-  display: flex;
+  display: flex; /*so we have 'boxes' next to each other not like a stack*/
   align-items: center;
   justify-content: center;
 }
+
 .contact-info {
   display: flex;
   width: 100%;
@@ -20,6 +25,7 @@ body {
   padding: 0 20px;
 }
 
+/*this styling refers to small cards in particular*/
 .card {
   background: #2f3542;
   padding: 0 20px;
@@ -33,21 +39,26 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
 a {
   color: #fff;
 }
 
+/*styling of the icons*/
 .card-icon {
   font-size: 28px;
   background: #ff6348;
   width: 60px;
   height: 60px;
   text-align: center;
+  /*this is to make the spacing between thw lines*/
   line-height: 60px !important;
   border-radius: 50%;
+  /*this is the time making for the transition*/
   transition: 0.3s linear;
 }
 
+/*still styling the icons of a different class*/
 .fab {
   font-size: 28px;
   background: #ff6348;
@@ -58,6 +69,8 @@ a {
   border-radius: 50%;
   transition: 0.3s linear;
 }
+
+/*changing the size of the icons on mouse hover*/
 .card:hover .fab {
   background: none;
   color: #ff6348;
@@ -69,6 +82,7 @@ a {
   transform: scale(1.6);
 }
 
+/*styling the text bellow the icons, making it appear on hover and dissapear when mouse in not on there*/
 .card p {
   margin-top: 20px;
   font-weight: 300;
@@ -77,12 +91,12 @@ a {
   opacity: 0;
   transition: 0.3s linear;
 }
-
 .card:hover p {
   max-height: 40px;
   opacity: 1;
 }
 
+/*I found this as a way to make a page responsive, seems it works*/
 @media screen and (max-width: 800px) {
   .contact-info {
     flex-direction: column;
@@ -109,6 +123,7 @@ h6 {
 #contact_bg {
   background-image: url("stripes.png");
   background-position: center;
+  /*I make the image appear only once and not multiples times*/
   background-repeat: no-repeat;
   background-size: cover;
 }
