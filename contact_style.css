@@ -27,7 +27,7 @@ body {
 
 /*this styling refers to small cards in particular*/
 .card {
-  background: #2f3542;
+  background: black;
   padding: 0 20px;
   margin: 0 10px;
   width: calc(33% - 20px);
