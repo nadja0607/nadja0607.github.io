@@ -1,0 +1,430 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(243, 229, 213); /* rgb(29, 29, 29) */
+    min-width: 1152px;
+    min-height: 720px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* TITLE and TEXTS */
+
+/* Title */
+.title_box {
+    /*background-color: sandybrown;  /* color is here for debugging.. should remove later */
+    width: 75%;
+    height: 8%;
+    padding: 0 50px 0 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 4.6em;
+    position: relative;
+}
+
+/* Text */
+.text {
+    background-color: white;
+    position: absolute;
+    border: 2px solid rgb(29, 29, 29);
+    text-align: center;
+    border-radius: 3px; 
+    font-size: 1.8em;
+}
+
+#text_panel1 {
+    width: 20%;
+    top: 10%;
+    right: -2%;
+}
+
+/*hover cursor change has been added for all clickable objects*/
+#text_panel1:hover{
+    cursor: pointer;
+}
+
+#text_panel2 {
+    width: 40%;
+    bottom: 6%;
+    right: 3%;
+}
+
+#text_panel3 {
+    width: 60%;
+    top: 10%;
+    left: -2%;
+}
+
+#text_panel4 {
+    width: 30%;
+    top: 13%;
+    right: 2%;
+}
+
+#text_panel5 {
+    width: 15%;
+    bottom: 20%;
+    left: -2%;
+}
+
+#text_panel6 {
+    width: 64%;
+    top: 5%;
+    left: 18%;
+}
+
+#text_panel7 {
+    width: 35%;
+    top: 13%;
+    right: -2%;
+}
+
+#text_panel8 {
+    width: 25%;
+    top: 13%;
+    right: 7%;
+}
+
+#text_panel9 {
+    width: 60%;
+    top: 10%;
+    left: -2%;
+}
+#text_panel10 {
+    width: 18%;
+    top: 40%;
+    left: 2.5%;
+}
+
+#text_panel11 {
+    width: 64%;
+    top: 5%;
+    left: 6%;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/*ALL PANELS*/
+
+.panel {
+    width: 75%;
+    padding: 50px;
+    margin: auto;
+    position: relative;
+}
+
+.panel_img {
+    max-height: 100%;  
+    max-width: 100%;
+    border: 3px solid rgb(29, 29, 29);
+    border-radius: 5px; 
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* OBJECTS */
+
+/*Panel 2*/
+/* Alarm clock */
+.alarmclock {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 18%;
+}
+
+.alarmclock:hover{
+   cursor:pointer;
+}
+
+
+/*Panel 3*/
+/* Toothbrush */
+.toothbrush {   
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    width: 15%;
+    height: 13%;
+}
+
+.toothbrush img {
+    width:100%;
+}
+
+.toothbrush:hover{
+    cursor: pointer;
+}
+
+
+/*Panel 4*/
+/* Cereal */
+.cerealbowl {
+    position: absolute;
+    top: 80%;
+    left: 41.5%;
+    width: 17%;
+}
+
+.cerealbowl img {   
+    width: 100%;
+}
+
+/* Coffee */
+.coffee {
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    width: 5%;
+}
+
+.coffee img {
+    width: 100%;
+}
+
+
+/*Panel 5*/
+#record{
+    width:5%;
+    height:5.6%;
+    position: absolute;
+    top:10%;
+    left:47.6%;  
+}
+
+#record:hover{
+    cursor:pointer;
+}
+
+
+/*Panel 6*/
+/* Musical notes */
+.musicalnotes {
+    position: absolute;
+    top: 25%;
+    left: 16.5%;
+    width: 18%;
+}
+    
+.musicalnotes img {
+    width: 100%;
+}
+
+/* Lunch */
+.lunchfood {
+    position: absolute;
+    top: 68%;
+    left: 38%;
+    width: 25%;
+}
+
+.lunchfood img {
+    width:100%;
+}
+
+/* Headphones */
+.headphones {
+    position: absolute;
+    top: 17%;
+    left: 33.5%;
+    width: 33.2%;
+}
+.headphones img {
+    width: 100%;
+}
+
+.headphones:hover{
+    cursor: pointer;
+}
+
+
+/*Panel 7*/
+/*Zoom camera recording*/
+#record1{
+    width:5%;
+    height:5.6%;
+    position: absolute;
+    top:10%;
+    left:47.6%;  
+}
+
+#record1:hover{
+    cursor:pointer;
+}
+
+
+/*Panel 8*/
+/* Droplet */
+.droplet {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    width: 2.5%;
+}
+
+.droplet img {
+    width: 100%;
+}
+
+
+/*Panel 9*/
+/* Dinner */
+.dinnerplate {
+    position: absolute;
+    top: 81%;
+    left: 36.5%;
+    width: 28%;
+}
+.dinnerplate img {
+    width: 100%;
+}
+
+#noise{
+    position: absolute;
+    width:13%;
+    height:15%;
+    right:4.5%;
+    top:9%;
+}
+
+#noise:hover{
+    cursor: pointer;
+    
+}
+
+
+/*Panel 10*/
+/* Showerhead*/
+.shower {
+    position: absolute;
+    top: 8%;
+    right: 47px;
+    width: 20%;
+}
+
+.shower img {
+    width: 100%;
+}
+
+.shower:hover{
+    cursor:pointer;
+}
+
+/* Shower water droplets */
+.wd{
+    width:2%;
+    position: absolute;
+}
+
+.wd img{
+    width:100%;
+}
+
+#wd1{
+    right:30%;
+    top:40%;
+}
+#wd2{
+    right:28%;
+    top:30%;
+}
+#wd3{
+    right:25%;
+    top:45%;
+}
+#wd4{
+    right:18%;
+    top:35%;
+}
+#wd5{
+    right:35%;
+    top:70%;
+}
+#wd6{
+    right:27%;
+    top:60%;
+}
+#wd7{
+    right:35%;
+    top:55%;
+}
+
+/* Shower foam */
+.foam{
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    width: 33%;
+}
+
+.foam img{
+    width: 100%;
+
+}
+
+
+/*Panel 11*/
+/* Sleep zzz */
+.zzz {
+    position: absolute;
+    right: 24%;
+    top: 28%;
+    width: 10%;
+}
+
+.zzz img{
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* NEW DAY BUTTON */
+
+.button_cont {
+    position: absolute;
+    width: 13%;
+    right: 0;
+    bottom: 7%;
+}
+
+.example_f {
+   border-radius: 4px;
+   background-color: black;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   font-size: 1.6em;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 5px;
+ }
+ .example_f span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+ .example_f span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .example_f:hover span {
+   padding-right: 25px;
+ }
+ .example_f:hover span:after {
+   opacity: 1;
+   right: 0;
+ }

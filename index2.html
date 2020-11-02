@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> COMIX </title>
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'> <!--Loaded font-->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> <!--Animate on Scroll css-->
+        <link href="style2.css" rel="stylesheet"> <!--css link-->
+        <script src="jquery-3.5.1.min.js"></script>
+    </head>
+
+    <body>
+        <div class="title_box">
+            Wake-up, Zoom, Sleep, Repeat
+        </div>
+
+
+        <!-- Panel 1: Sunrise in Bedroom -->
+         <div class="panel">
+            <img class="panel_img" src="bedroom.gif">
+            <div class="text" id="text_panel1" data-aos="fade-left" data-aos-duration=1200> 
+                Hey I'm Robyn and I'll be walking you through my day! Feel free to search around for clickable objects to play and pause sounds. Hint: Click this textbox.
+            </div>
+        </div>
+
+
+        <!-- Panel 2: Waking up -->
+        <!--Structure of each panel is similiarly setup, contained in div class panel-->
+        <div class="panel">
+            <!--main background image including character-->
+            <img class="panel_img" src="bed.png">
+            <!--Objects added, each image is in a div-->
+            <!--Object divs are given ids particularly when they have sound added to them in js-->
+            <!--Animate on Scroll applied to objects-->
+            <div id="clock">
+                <img class="alarmclock" src="alarm.gif">
+            </div>
+            <!--Dialogue boxes for each panel with class text for setting all their general properties-->
+            <!--ids used for positioning in css-->
+            <!--Animate on Scroll applied to textbox-->
+            <div class="text" id="text_panel2" data-aos="zoom-in" data-aos-duration=1200> 
+                I always try to start my day early and set the tone for the rest of the day. Having a persistent alarm really helps!
+            </div>        
+        </div>
+
+
+        <!-- Panel 3: Bathroom (Morning) -->
+        <div class="panel">
+            <img class="panel_img" src="bathroomMorning.png">
+            <div class="toothbrush" id="toothbrush" data-aos="fade-left" data-aos-duration=1000>
+                <img src="toothbrush.svg">
+            </div>
+            <div class="text" id="text_panel3" data-aos="fade-right" data-aos-duration=1200> 
+                I go through my usual morning routine...sometimes it takes 5 minutes and sometimes 20. There's really no telling.
+            </div>    
+        </div>
+
+        <!-- Panel 4: Breakfast -->
+        <div class="panel">
+            <img class="panel_img" src="breakfast.png">
+            <div class="cerealbowl" data-aos="fade-up" data-aos-duration=1000>
+                <img src="cereal.png">
+            </div>
+            <div class="coffee" data-aos="zoom-in" data-aos-duration=1000>
+                <img src="coffee.svg">
+            </div>
+            <div class="text" id="text_panel4" data-aos="fade-in" data-aos-duration=1200> 
+                Coffee in the morning is my saving grace and I'm really into cereal right now! Is that a strange combination? 
+            </div>   
+        </div>       
+        
+        <!-- Panel 5: Zoom 1 -->
+        <div class="panel">
+            <img class="panel_img" src="zoom.png">
+            <div id="record"></div>
+            <div class="text" id="text_panel5" data-aos="fade-right" data-aos-duration=1200> 
+                You think it would be easy to focus when it's your first class of the day but I'm really tempted to turn off my camera and take a power nap!
+            </div>
+        </div>      
+        
+        <!-- Panel 6: Lunch in D2 -->
+        <div class="panel">
+            <img class="panel_img" src="d2.png">
+            <img class="musicalnotes" src="musical_notes.gif">
+            <div class="lunchfood" data-aos="fade-up" data-aos-duration=1000>
+                <img src="salad.png">
+            </div>
+            <div class="headphones" id="music" data-aos="fade-down" data-aos-duration=700>
+                <img src="headphones.png">
+            </div>
+            <div class="text" id="text_panel6" data-aos="zoom-in" data-aos-duration=1200> 
+                Food for the body and music for the soul is lunch time done right. Need to update my playlist though, it's starting to sound like cafeteria music.
+            </div>
+        </div>  
+
+        <!-- Panel 7: Zoom 2 -->
+        <div class="panel">
+            <img class="panel_img" src="zoom.png">
+            <div id="record1"></div>
+            <div class="text" id="text_panel7" data-aos="fade-left" data-aos-duration=1200> 
+                Time to focus for class again! I'm sure I'm going to need to know all this for some future assignment
+            </div> 
+        </div>  
+
+        <!-- Panel 8: Workout -->
+        <div class="panel">
+            <img class="panel_img" src="workout.gif">
+            <div class="droplet" data-aos="fade-down" data-aos-duration=1500>
+                <img src="droplet.png">
+            </div>
+            <div class="text" id="text_panel8" data-aos="zoom-in" data-aos-duration=1200> 
+                Exercising is never as easy as online instructors make it look...
+            </div> 
+        </div>  
+
+        <!-- Panel 9: Dinner in D2 -->
+        <div class="panel">
+            <img class="panel_img" src="d2.png">
+            <div id="noise"></div>
+            <div class="dinnerplate" data-aos="zoom-in" data-aos-duration=1000>
+                <img src="pasta.png">
+            </div>
+            <div class="text" id="text_panel9" data-aos="fade-right" data-aos-duration=1200> 
+                And now it's time for some well earned carbs and a break from both work and procrastination. I do wish it was a little quieter though.
+            </div> 
+        </div>
+
+        <!-- Panel 10: Shower -->
+        <div class="panel">
+            <img class="panel_img" src="bathroomNight.png">
+            <div class="shower" id="showersound">
+                <img src="showerhead.png">
+            </div>
+            <!--Each water drop added separately to include individual animation with time difference-->
+            <div class="wd" id="wd1"  data-aos="fade-down-left" data-aos-duration=850>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd2" data-aos="fade-down-left" data-aos-duration=500>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd3" data-aos="fade-down-left" data-aos-duration=700>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd4" data-aos="fade-down-left" data-aos-duration=600>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd5" data-aos="fade-down-left" data-aos-duration=900>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd6" data-aos="fade-down-left" data-aos-duration=700>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd7" data-aos="fade-down-left" data-aos-duration=900>
+                <img src="waterdrop.png">
+            </div>
+            <div class="foam" data-aos="zoom-in" data-aos-duration=400>
+                <img src="foam.png">
+            </div>
+            <div class="text" id="text_panel10" data-aos="fade-right" data-aos-duration=1200> 
+                I love showering at night. It helps me to calm myself before sleeping and to fill my daily quota of day dreaming.
+            </div>
+        </div>
+
+        <!-- Panel 11: Bed -->
+        <div class="panel">
+            <img class="panel_img" src="bed_night.png">
+            <div class="zzz" data-aos="fade-up-right" data-aos-duration=1000>
+                <img src="zzz.png">
+            </div>
+            <div class="button_cont" align="center">
+                <a class="example_f" href="https://kholajamshad.github.io/comix.html" rel="nofollow"><span>NEXT DAY</a>
+            </div>
+            <div class="text" id="text_panel11" data-aos="zoom-in" data-aos-duration=1200> 
+                Well it's too late to do anymore work so I'll just do the rest tomorrow...if there's time. Goodnight!
+            </div>
+        </div>
+    </body>
+    
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> <!--Animate on Scroll js-->
+    <script src="script2.js"></script> <!--js link-->
+</html>
