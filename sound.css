@@ -1,0 +1,110 @@
+.quote {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+  font-family: "Times New Roman", Courier, monospace;
+  font-size: 20px;
+  font-weight: unset;
+  color: white;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  background: url("homepageimage.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.About {
+  position: absolute;
+  top: 100%;
+  left: 38%;
+  text-align: center;
+  font-family: Courier, monospace;
+  font-size: 20px;
+  font-weight: unset;
+  color: white;
+  width: 400px;
+  display: flex；;
+}
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(65, 62, 52, 0.397);
+}
+
+.navbar a {
+  margin-top: 20px;
+  float: right;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-family: "Times New Roman", Courier, monospace;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: rgba(66, 64, 64, 0.452);
+  transition: 0.5s;
+  padding: 20px 25px;
+}
+
+.column {
+  margin-top: 15%;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 1000px;
+  filter: grayscale(100%);
+  /* cursor: pointer; add this to icons only!!!*/
+  transition: 0.4s;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(66, 64, 64, 0.596);
+}
+
+/*after the mouse hover we can see the real color of the images*/
+.column:hover {
+  filter: grayscale(0);
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Courier, monospace;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.column img {
+  margin-top: 400px;
+  cursor: pointer;
+}
