@@ -1,10 +1,10 @@
 .quote {
   position: absolute;
-  top: 20%;
+  top: 8vw;
   left: 20%;
   right: 20%;
-  font-family: "Times New Roman", Courier, monospace;
-  font-size: 20px;
+  font-family: "Sacramento", cursive;
+  font-size: 2vw;
   font-weight: unset;
   color: white;
 }
@@ -43,18 +43,19 @@ html {
 .navbar {
   overflow: hidden;
   background-color: rgba(65, 62, 52, 0.397);
+  height: 6vw;
 }
 
 .navbar a {
   margin-top: 20px;
   float: right;
-  font-size: 20px;
+  font-size: 1.5vw;
   color: white;
   text-align: center;
   padding-top: 20px;
   padding: 20px 22px;
   text-decoration: none;
-  font-family: "Times New Roman", Courier, monospace;
+  font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
 }
 
@@ -86,6 +87,8 @@ html {
 h2 {
   text-align: center;
   color: rgba(66, 64, 64, 0.596);
+  font-family: "Sacramento", cursive;
+  font-size: 2vw;
 }
 
 /*after the mouse hover we can see the real color of the images*/
@@ -96,15 +99,17 @@ h2 {
 h3 {
   text-align: center;
   color: white;
-  font-family: "Times New Roman", Courier, monospace;
+  font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 1.7vw;
   text-decoration: none;
   margin-top: 20px;
+  font-weight: lighter;
 }
 
 .column img {
   margin-top: 400px;
   cursor: pointer;
+  position: fixed;
 }
