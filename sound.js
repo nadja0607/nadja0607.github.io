@@ -16,7 +16,7 @@ photo.addEventListener("mouseleave", () => {
   function playAudio(url){
     let treedom = document.getElementById("treedom");
     let yoki = document.getElementById("yoki");
-    let nadja = document.getElementById("yoki");
+    let nadja = document.getElementById("nadja");
     // let quim = document.getElementById("quim");
    
     if (url=="treedom_audio.mp3"){
