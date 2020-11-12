@@ -14,5 +14,6 @@ photo.addEventListener("mouseleave", () => {
   });
   
   function playAudio(url){
-    new Audio(url).play();
+    let current_audio = new Audio(url);
+    current_audio.play();
   }
