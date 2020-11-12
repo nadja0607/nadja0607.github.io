@@ -14,6 +14,12 @@
 </head>
 
 <body>
+    <audio>
+        <source src="treedom_audio.mp3" type="audio/mpeg">
+        <source src="yoki_audio.mp3" type="audio/mpeg">
+        <source src="nadja_audio.mp3" type="audio/mpeg">
+        <source src="quim_audio.mp3" type="audio/mpeg">
+    </audio>
 
     <div class="navbar">
         <a id="home" href="https://nadja0607.github.io">
@@ -35,19 +41,19 @@
     <div class="row">
         <div class="column" style="background-image:url(Treedom.jpg);">
             <h2>Treedom</h2>
-            <img id="icon" src="treedomPhoto.png" style="width:90%;margin-top:450px;">
+            <img id="icon" src="treedomPhoto.png" style="margin-top: 450px;" onclick="playAudio('treedom_audio.mp3')">
         </div>
         <div class="column" style="background-image:url(Yoki.jpg);">
             <h2>Yoki</h2>
-            <img id="icon2" src="yokiTravel.png" style=" margin-left:40px;">
+            <img id="icon2" src="yokiTravel.png" style=" margin-left:40px;" onclick="playAudio('yoki_audio.mp3')">
         </div>
         <div class="column" style="background-image:url(Nadja_dance.jpg);">
             <h2>Nadja</h2>
-            <img id="icon3" src="nadjaDance.png" style="margin-left:30px;">
+            <img id="icon3" src="nadjaDance.png" style="margin-left:30px;" onclick="playAudio('nadja_audio.mp3')">
         </div>
         <div class="column" style="background-image:url(Quim.jpg);">
             <h2>Quim</h2>
-            <img id="icon4" src="quimGuitar.png" style="margin-left:20px;">
+            <img id="icon4" src="quimGuitar.png" style="margin-left:20px;" onclick="playAudio('quim_audio.mp3')">
         </div>
     </div>
 
