@@ -14,6 +14,24 @@ photo.addEventListener("mouseleave", () => {
   });
   
   function playAudio(url){
-    let current_audio = new Audio(url);
-    current_audio.play();
+    let treedom = document.getElementById("treedom");
+    let yoki = document.getElementById("yoki");
+    let nadja = document.getElementById("yoki");
+    // let quim = document.getElementById("quim");
+   
+    if (url=="treedom_audio.mp3"){
+        treedom.play();
+        yoki.pause();
+        nadja.pause();
+    } 
+    if (url=="yoki_audio.mp3"){
+        treedom.pause();
+        yoki.play();
+        nadja.pause();
+    } 
+    if (url=="nadja_audio.mp3"){
+        treedom.pause();
+        yoki.pause();
+        nadja.play();
+    } 
   }
