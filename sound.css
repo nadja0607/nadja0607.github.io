@@ -47,22 +47,13 @@ html {
 }
 
 .navbar a {
-  margin-top: 20px;
-  float: right;
-  font-size: 1.5vw;
-  color: white;
-  text-align: center;
-  padding-top: 20px;
-  padding: 20px 22px;
   text-decoration: none;
-  font-family: "Bebas Neue", cursive;
-  text-transform: uppercase;
+  float: right;
+  padding-right: 2vw;
 }
 
 .navbar a:hover {
-  background-color: rgba(66, 64, 64, 0.452);
-  transition: 0.5s;
-  padding: 20px 25px;
+  color: rgba(66, 64, 64, 0.452);
 }
 
 .column {
@@ -101,11 +92,14 @@ h3 {
   color: white;
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 1vw;
   font-size: 1.7vw;
   text-decoration: none;
-  margin-top: 20px;
+  margin-top: 1vw;
   font-weight: lighter;
+}
+h3:hover {
+  color: rgba(66, 64, 64, 0.452);
 }
 
 .column img {
