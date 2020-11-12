@@ -1,6 +1,7 @@
 console.log("Hi, this is a testing line");
 
 let photo = document.getElementById("icon");
+photo.style.margintop = '450px';
 
 photo.addEventListener("mouseenter", () => {
     //enlarge the icon on hover
