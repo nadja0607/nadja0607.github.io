@@ -1,12 +1,12 @@
 .quote {
-  position: absolute;
-  top: 8vw;
-  left: 20%;
-  right: 20%;
+  position: fixed;
+  top: 18%;
+  left: 15%;
+  right: 15%;
   font-family: "Sacramento", cursive;
-  font-size: 2vw;
-  font-weight: unset;
+  font-size: 2em;
   color: white;
+  height: 80%;
 }
 
 .center {
@@ -43,17 +43,14 @@ html {
 .navbar {
   overflow: hidden;
   background-color: rgba(65, 62, 52, 0.397);
-  height: 6vw;
+  height: 20%;
 }
 
 .navbar a {
   text-decoration: none;
   float: right;
   padding-right: 2vw;
-}
-
-.navbar a:hover {
-  color: rgba(66, 64, 64, 0.452);
+  position: relative;
 }
 
 .column {
@@ -64,8 +61,12 @@ html {
   padding: 10px;
   height: 1000px;
   filter: grayscale(100%);
-  /* cursor: pointer; add this to icons only!!!*/
   transition: 0.4s;
+  background-repeat: no-repeat;
+}
+
+.row {
+  position: relative;
 }
 
 /* Clear floats after the columns */
@@ -79,7 +80,7 @@ h2 {
   text-align: center;
   color: rgba(66, 64, 64, 0.596);
   font-family: "Sacramento", cursive;
-  font-size: 2vw;
+  font-size: 1.8em;
 }
 
 /*after the mouse hover we can see the real color of the images*/
@@ -93,11 +94,12 @@ h3 {
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
   padding-top: 1vw;
-  font-size: 1.7vw;
+  font-size: 2.5em;
   text-decoration: none;
   margin-top: 1vw;
   font-weight: lighter;
 }
+
 h3:hover {
   color: rgba(66, 64, 64, 0.452);
 }
@@ -106,4 +108,11 @@ h3:hover {
   margin-top: 400px;
   cursor: pointer;
   position: fixed;
+  width: 70%;
+}
+
+#icon2:hover,
+#icon3:hover,
+#icon4:hover {
+  width: 80%;
 }
