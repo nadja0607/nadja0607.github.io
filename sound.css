@@ -59,7 +59,7 @@ html {
   float: left;
   width: 25%;
   padding: 10px;
-  height: 900px;
+  height: 680px;
   filter: grayscale(100%);
   transition: 0.4s;
   background-repeat: no-repeat;
@@ -69,6 +69,7 @@ html {
 .row {
   position: relative;
   display: flex;
+  width: 100%;
 }
 
 /* Clear floats after the columns */
@@ -107,7 +108,7 @@ h3:hover {
 }
 
 .column img {
-  margin-top: 110%;
+  margin-top: 70%;
   cursor: pointer;
   position: fixed;
   width: 70%;
@@ -120,5 +121,5 @@ h3:hover {
 }
 
 #icon {
-  width: 90%;
+  margin-top: 55%;
 }

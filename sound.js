@@ -17,21 +17,30 @@ photo.addEventListener("mouseleave", () => {
     let treedom = document.getElementById("treedom");
     let yoki = document.getElementById("yoki");
     let nadja = document.getElementById("nadja");
-    // let quim = document.getElementById("quim");
+    let quim = document.getElementById("quim");
    
     if (url=="treedom_audio.mp3"){
         treedom.play();
         yoki.pause();
         nadja.pause();
+        quim.pause();
     } 
     if (url=="yoki_audio.mp3"){
         treedom.pause();
         yoki.play();
         nadja.pause();
+        quim.pause();
     } 
     if (url=="nadja_audio.mp3"){
         treedom.pause();
         yoki.pause();
         nadja.play();
+        quim.pause();
+    } 
+    if (url=="quim_audio.mp3"){
+        treedom.pause();
+        yoki.pause();
+        nadja.pause();
+        quim.play();
     } 
   }
