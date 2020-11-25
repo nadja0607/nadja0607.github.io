@@ -39,6 +39,7 @@ body {
   transition-duration: 0.3s;
   cursor: pointer;
   margin-right: 170px;
+  text-decoration: none;
 }
 .login-button:hover {
   color: #fff;
