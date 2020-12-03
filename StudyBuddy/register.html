@@ -34,35 +34,132 @@
                         </div>
                         <div>
                             <h1 class="wr-title blue-bg padding-double white boarder-bottom-blue margin-none">
-                                Enter your email and set up password to register
+                                To register, enter some information about you:
                             </h1>
                         </div>
                     </div>
                     <div class="boarder-all">
                         <div class="clearfix"></div>
                         <div class="padding-double login-form">
-                            <form action="/idp/profile/SAML2/Unsolicited/SSO?execution=e2s1" method="post" name="login"
-                                id="loginForm">
+                            <form action="insert.php" method="post" name="login" id="loginForm">
                                 <div class="innercontent">
                                     <div>
                                         <div style="margin-bottom: 15px;">
                                         </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="netID">netID</label>
+                                            <input id="netID" type="text" class="form-control" tabindex="0"
+                                                placeholder="" required autofocus>
+                                        </div>
+
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
                                             <label for="username">Email</label>
-                                            <input id="username" name="j_username" type="text" class="form-control"
-                                                tabindex="0" placeholder="" required autofocus>
+                                            <input id="username" type="text" class="form-control" tabindex="0"
+                                                placeholder="" required autofocus>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="first_name">First Name</label>
+                                            <input id="fname" type="text" class="form-control" tabindex="0"
+                                                placeholder="" required autofocus>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="last_name">Last Name</label>
+                                            <input id="lname" type="text" class="form-control" tabindex="0"
+                                                placeholder="" required autofocus>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="last_name">Gender</label>
+                                            <div>
+                                                <!-- <select name="gender"> -->
+                                                <select name="gender">
+                                                    <option value="Female">Female</option>
+                                                    <option value="Male">Male</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="last_name">Year</label>
+                                            <div>
+                                                <select name="year">
+                                                    <!-- <input type="text" name="last_name" id="lastName"> -->
+                                                    <option value="Freshmen">Freshmen</option>
+                                                    <option value="Sophomore">Sophomore</option>
+                                                    <option value="Junior">Junior</option>
+                                                    <option value="Senior">Senior</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
+                                            <label for="last_name">Major</label>
+                                            <div>
+                                                <select name="major">
+
+                                                    <optgroup label="Arts and Humanities">
+                                                        <option value="Art and Art History">Art and Art History</option>
+                                                        <option value="Film and New Media">Film and New Media</option>
+                                                        <option value="History">History</option>
+                                                        <option value="Interactive Media">Interactive Media</option>
+                                                        <option value="Literature and Creative Writing	">Literature and
+                                                            Creative Writing
+                                                        </option>
+                                                        <option value="Music">Music </option>
+                                                        <option value="Philosophy">Philosophy</option>
+                                                        <option value="Theater">Theater </option>
+                                                    </optgroup>
+
+                                                    <optgroup label="Engineering">
+                                                        <option value="Bioengineering	">Bioengineering </option>
+                                                        <option value="Civil Engineering	">Civil Engineering </option>
+                                                        <option value="Computer Engineering	">Computer Engineering
+                                                        </option>
+                                                        <option value="Electrical Engineering	">Electrical Engineering
+                                                        </option>
+                                                        <option value="General Engineering	">General Engineering
+                                                        </option>
+                                                        <option value="Mechanical Engineering	">Mechanical Engineering
+                                                        </option>
+                                                    </optgroup>
+
+                                                    <optgroup label="Science">
+                                                        <option value="Biology		">Biology </option>
+                                                        <option value="Chemistry		">Chemistry </option>
+                                                        <option value="Computer Science	">Computer Science </option>
+                                                        <option value="Mathematics		">Mathematics </option>
+                                                        <option value="Physics">Physics</option>
+                                                        <option value="Psychology	">Psychology</option>
+                                                    </optgroup>
+
+                                                    <optgroup label="Social Science">
+                                                        <option value="Arab Crossroads Studies			">Arab Crossroads
+                                                            Studies </option>
+                                                        <option value="Economics			">Economics </option>
+                                                        <option value="Legal Studies	">Legal Studies </option>
+                                                        <option value="Political Science			">Political Science </option>
+                                                        <option value="Social Research and Public Policy	">SRPP</option>
+
+                                                    </optgroup>
+
+                                                </select>
+                                            </div>
                                         </div>
 
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
                                             <label for="password">Password</label>
-                                            <input id="password" name="j_password" type="password" class="form-control"
-                                                placeholder="" autocomplete="off">
+                                            <input id="password" type="password" class="form-control" placeholder=""
+                                                autocomplete="off">
                                         </div>
 
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
                                             <label for="password">Confirm Password</label>
-                                            <input id="password" name="j_password" type="password" class="form-control"
-                                                placeholder="" autocomplete="off">
+                                            <input id="password" type="password" class="form-control" placeholder=""
+                                                autocomplete="off">
                                         </div>
 
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
@@ -73,11 +170,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="instruction">
-                                        <p>Be cybersecurity aware: <a href="http://www.nyu.edu/servicelink/KB0015659"
-                                                target="_blank">Learn how to confirm that this is the legitimate NYU
-                                                Login page.</a></p>
-                                    </div>
+
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
