@@ -1,0 +1,73 @@
+html {
+  background-color: #009399;
+}
+header {
+  background-color: white;
+  border: 5px black;
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+  font-size: 36px;
+}
+
+.navigation {
+  width: auto;
+  height: 40px;
+  position: relative;
+  line-height: 32px;
+  background-color: teal;
+  overflow: hidden;
+}
+
+ul.navigation {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  padding: 20%;
+
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.navigation li a:hover {
+  background-color: black;
+}
+
+video {
+  width: 100%;
+}
+
+.team1 {
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  background-color: teal;
+}
+.team2 {
+  border-radius: 5px;
+  left: 40%;
+  width: 60%;
+  position: relative;
+  background-color: teal;
+}
+.team3 {
+  opacity: 0.9;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  background-color: teal;
+}
+.team4 {
+  border-radius: 5px;
+  left: 40%;
+  width: 60%;
+  position: relative;
+  background-color: teal;
+}
