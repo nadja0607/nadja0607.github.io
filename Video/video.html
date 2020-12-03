@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="video_style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title> Origami</title>
 
     <header>
@@ -23,9 +24,28 @@
 
 <body>
 
-
-
-    <video controls src="The Mask.mp4" </video>
+    <div class="progress">
+        <ul>
+            <li><i class="fa fa-play fa-3x" aria-hidden="true"></i>
+                <p>Start</p>
+            </li>
+            <li><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
+                <p>Step 1</p>
+            </li>
+            <li><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
+                <p>Step 2</p>
+            </li>
+            <li><i class="fa fa-flag fa-3x" aria-hidden="true"></i>
+                <p>Step 3 - Done!</p>
+            </li>
+        </ul>
+    </div>
+    <!-- change the video -->
+    <video width="320" style="width:900px; margin-top:30px; margin-left:280px; margin-top:5px" controls>
+        <source
+            src="http://www.commlab.nyuadim.com/MangF20/What_People_Do.mp4?fbclid=IwAR2DptVlafII_VBwXjBakPIKKHiKBXsqI4nVEEVGeOKcsCPftAQ_OBjnzxA"
+            type="video/mp4">
+    </video>
 
 
 </body>
