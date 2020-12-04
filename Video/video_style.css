@@ -1,5 +1,5 @@
 html {
-  background-color: #009399;
+  background-color: #47bbdf;
 }
 header {
   background-color: white;
@@ -13,6 +13,7 @@ header {
 h1 {
   margin: 0;
   font-size: 1.3em;
+  color: rgb(13, 74, 109);
 }
 
 p {
