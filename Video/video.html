@@ -19,13 +19,13 @@
 
     <div class="progress">
         <ul>
-            <li><i class="fa fa-play fa-3x" aria-hidden="true"></i>
+            <li><i id="playme" class="fa fa-play fa-3x" aria-hidden="true"></i>
                 <p>Start - Step 1</p>
             </li>
-            <li><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
+            <li><i id="jump" class="fa fa-check-circle fa-3x" aria-hidden="true"></i>
                 <p>Step 2</p>
             </li>
-            <li><i class="fa fa-flag fa-3x" aria-hidden="true"></i>
+            <li><i id="jump2" class="fa fa-flag fa-3x" aria-hidden="true"></i>
                 <p>Step 3 - Done!</p>
             </li>
         </ul>
@@ -37,11 +37,13 @@
             type="video/mp4">
 
     </video> -->
-    <iframe style="width: 55em;height:28em; margin-left:20%; margin-top:20px"
+
+    <iframe id="myvideo" style="width: 55em;height:28em; margin-left:20%; margin-top:20px"
         src="https://www.youtube.com/embed/ktpj-M1OPog" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 
+    <script src="video.js"></script>
 
 </body>
 
