@@ -12,42 +12,12 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 p {
   font-size: 1.3em;
   color: white;
-}
-
-.navigation {
-  width: auto;
-  height: 40px;
-  position: relative;
-  line-height: 32px;
-  background-color: teal;
-  overflow: hidden;
-}
-
-ul.navigation {
-  list-style-type: none;
-}
-
-.navigation li {
-  display: inline;
-}
-
-.navigation a {
-  padding: 20%;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.navigation li a:hover {
-  background-color: rgba(255, 255, 255, 0.568);
-  color: teal;
 }
 
 .fa.fa-check-circle,
@@ -70,34 +40,6 @@ ul li .fa::after {
   z-index: -1;
 }
 
-.team1 {
-  border-radius: 5px;
-  width: 60%;
-  position: relative;
-  background-color: teal;
-}
-.team2 {
-  border-radius: 5px;
-  left: 40%;
-  width: 60%;
-  position: relative;
-  background-color: teal;
-}
-.team3 {
-  opacity: 0.9;
-  border-radius: 5px;
-  width: 60%;
-  position: relative;
-  background-color: teal;
-}
-.team4 {
-  border-radius: 5px;
-  left: 40%;
-  width: 60%;
-  position: relative;
-  background-color: teal;
-}
-
 .progress i {
   width: 80px;
   margin-right: 20em;
@@ -106,6 +48,7 @@ ul li .fa::after {
 .progress ul {
   text-align: center;
   margin-top: 3em;
+  margin-bottom: 0;
 }
 
 .progress ul li {
