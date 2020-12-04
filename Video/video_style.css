@@ -50,6 +50,8 @@ ul li .fa::after {
   text-align: center;
   margin-top: 3em;
   margin-bottom: 0;
+  padding-left: 0;
+  margin-right: 40px;
 }
 
 .progress ul li {
