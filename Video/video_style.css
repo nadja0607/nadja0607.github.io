@@ -29,6 +29,12 @@ p {
   margin-right: 0;
 }
 
+.fa.fa-check-circle:hover,
+.fa.fa-flag:hover,
+.fa.fa-play:hover {
+  color: rgb(13, 74, 109);
+}
+
 ul li .fa::after {
   content: "";
   background: rgba(255, 255, 255, 0.568);
