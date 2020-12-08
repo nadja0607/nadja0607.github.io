@@ -1,41 +1,8 @@
 var myvideo = document.getElementById("my_video");
-/* play = document.getElementById("playme");
+play = document.getElementById("playme");
 jump = document.getElementById("jump");
 jump2 = document.getElementById("jump2");
 
-
-play.addEventListener("click", () => {
-    timeEnd = 19;
-    console.log("play step 1");
-
-    if (myvideo.currentTime == timeEnd) {
-        myvideo.pause();
-     } else {
-         myvideo.play();
-     }
-})
-
-jump.addEventListener("click", () => {
-    timeEnd = 135;
-    console.log("play step 2");
-
-    if (myvideo.currentTime == timeEnd) {
-        myvideo.pause();
-     } else {
-         myvideo.play();
-     }
-})
-
-jump2.addEventListener("click", () => {
-    timeEnd = 220;
-    console.log("play step 3");
-
-    if (myvideo.currentTime == timeEnd) {
-        myvideo.pause();
-     } else {
-         myvideo.play();
-     }
-}) */
 
 var buttons = ['playme','jump','jump2'];
 
@@ -80,5 +47,16 @@ function playVideo(startTime) {
     myvideo.currentTime = startTime;
     /* play video */
     myvideo.play();
+
+    if (myvideo.currentTime > 20){
+        play.className = "fa fa-check-circle fa-3x";
+    }
+   
+    if (myvideo.currentTime > 135){
+        jump.className = "fa fa-check-circle fa-3x";
+    }
     
+    if (myvideo.currentTime >200){
+        jump2.className = "fa fa-check-circle fa-3x";
+    }
 }
