@@ -9,47 +9,49 @@ might work on it a bit throughout the course-->
     <!--including the style sheets-->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--tried making the page size responsive, I think it might still need some improvement-->
+    <!-- making the page size responsive-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 
-<div style="position: sticky;">
-    <h6 style="background-color:black;font-size:4vw;">Nadja's IM</h6>
-    <h5 style="background-color:black;font-size:4vw;">Portfolio</h5>
-</div>
-
-
-
 <body class="bg_set">
 
-    <div style="width:50%;">
-
+    <div id="begin">
+        <!--tried editing style in html besides having it in the css file-->
+        <h6 style="background-color:black;font-size:4vw;">Nadja's IM</h6>
+        <h5 id="po">Portfolio</h5>
         <div id="work_title">
-            <!--  <h4 style="background-color:black;font-size:2.5vw;">Check out my work</h4> -->
             <a href="https://nadja0607.github.io/contact.html">
-                <h5 id="contact-hover" style="background-color:black; font-size:4vw;">
+                <!--there is the house icon on the contact page that takes you back to the portfolio-->
+                <h5 id="contact-hover">
                     <Contact>Contact
                 </h5>
             </a>
         </div>
-        <div>
-            <img src="nfb3.jpg" width=50% style="float: right; position:fixed;margin-left:10em;">
-        </div>
-        <!--I'll keep links to my projects here-->
-        <div>
-            <ul class="menu_items">
-                <li><a href="https://nadja0607.github.io/30FF.html"><i class="icon fa fa-film fa-2x"></i>
-                        30MFF</a></li>
-                <li><a href="https://nadja0607.github.io/comic.html"><i class="icon fa fa-image fa-2x"></i> Comic</a>
-                </li>
-                <li><a href="https://nadja0607.github.io/sound.html"><i class="icon fa fa-music fa-2x"></i> Sound</a>
-                </li>
-                <li><a href="https://nadja0607.github.io/sound.html" style:"margin-left:20px;"><i
-                            class="icon fa fa-video-camera fa-2x"></i>
-                        Video</a>
-                </li>
-            </ul>
-        </div>
+    </div>
+
+
+
+
+    <!--adding image and making it fixt half of the screen-->
+    <img id="ja" src="nfb2.jpg" width=49%>
+
+
+    <!--I'll keep links to my projects here-->
+    <div>
+        <ul class="menu_items">
+            <!--decided to open the projects in the same window since every project has a way to go back to the portfolio-->
+            <li><a href="https://nadja0607.github.io/30FF.html"><i class="icon fa fa-film fa-2x"></i>
+                    30MFF</a></li>
+            <li><a href="https://nadja0607.github.io/comic.html"><i class="icon fa fa-image fa-2x"></i> Comic</a>
+            </li>
+            <li><a href="https://nadja0607.github.io/sound.html"><i class="icon fa fa-music fa-2x"></i> Sound</a>
+            </li>
+            <li><a href="https://nadja0607.github.io/sound.html" style:"margin-left:20px;"><i
+                        class="icon fa fa-video-camera fa-2x"></i>
+                    Video</a>
+            </li>
+        </ul>
+    </div>
     </div>
 </body>
 

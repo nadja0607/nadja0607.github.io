@@ -1,7 +1,6 @@
 /*this is the main style sheet I use for ediitng most of the pages*/
 
 .bg_set {
-  /* background-color: #dab692; */
   background-image: url("london_op.png");
   margin-top: 0px;
 }
@@ -44,13 +43,25 @@ h3:hover {
 #contact-hover:hover {
   color: #ff6348;
   background-color: black;
-  font-size: 4vw;
 }
 
 #contact-hover {
   margin-top: 140%;
   float: left;
   margin-left: 230%;
+  background-color: black;
+  font-size: 3vw;
+}
+
+#ja {
+  float: right;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 10%;
+}
+
+#begin {
+  width: 50%;
 }
 
 h5 {
@@ -85,10 +96,18 @@ h4 {
   position: absolute;
 }
 
+#po {
+  background-color: black;
+  font-size: 4vw;
+  margin-top: 6%;
+  margin-left: -24px;
+  float: left;
+}
+
 .menu_items {
   position: absolute;
   top: 42%;
-  bottom: 0;
+
   left: 50px;
   list-style-type: none;
   padding: 15px;
@@ -100,8 +119,7 @@ h4 {
 }
 
 .menu_items li {
-  height: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 1.4em;
 }
 
 /*making every item in the list slightly moved to the right*/
@@ -129,21 +147,8 @@ h4 {
 .menu_items a .icon {
   position: relative;
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 0.7em;
   color: black;
-}
-
-.menu_items a .icon:after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: "";
-  display: block;
-  width: 60px;
-  height: 60px;
-  margin-left: -33px;
-  margin-top: -32px;
-  transition: border-color 0.2s;
 }
 
 .menu_items a:hover {
