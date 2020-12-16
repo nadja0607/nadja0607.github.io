@@ -1,83 +1,91 @@
-html {
-  background-color: #47bbdf;
+body {
+  background-color: rgb(161, 181, 187);
+  background-image: url("paper1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
+
+body.background-image {
+  opacity: 0.1;
+}
+
 header {
-  background-color: white;
-  border: 5px black;
-  border-radius: 10px;
-  width: auto;
+  background-color: rgb(192, 202, 228);
+  width: 100%;
   text-align: center;
   font-size: 36px;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
   margin: 0;
   font-size: 1.3em;
-  color: rgb(13, 74, 109);
+  color: rgb(0, 141, 197);
+}
+
+a {
+  text-decoration: none;
+}
+
+#por {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+#por:hover {
+  color: rgb(2, 29, 87);
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1vw;
   color: white;
   margin-top: 2px;
 }
 
-.fa.fa-check-circle,
-.fa.fa-flag,
-.fa.fa-play,
-.fa.fa-circle {
+.fa.fa-lock,
+.fa.fa-unlock-alt,
+.fa.fa-check {
   color: white;
   margin-bottom: 10px;
   margin-right: 0;
 }
 
-.fa.fa-check-circle:hover,
-.fa.fa-flag:hover,
-.fa.fa-play:hover,
-.fa.fa-circle:hover {
+.fa.fa-lock:hover,
+.fa.fa-unlock-alt:hover,
+.fa.fa-check:hover {
   color: rgb(13, 74, 109);
 }
 
-/* ul li .fa::after {
-  content: "";
-  background: rgba(255, 255, 255, 0.568);
-  height: 5px;
-  width: 200px;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 25px;
-  z-index: -1;
-} */
-
 .progress i {
-  width: 80px;
-  margin-right: 20em;
+  width: 4.17vw;
   text-align: center;
-  margin-bottom: 0;
-  padding-left: 0;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .progress ul {
+  width: 100%;
   text-align: center;
-  margin-top: 3em;
-  margin-bottom: 0;
-  padding-left: 262px;
-
-  margin-right: 80px;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .progress ul li {
+  width: 6.35%;
   display: inline-block;
   position: relative;
-  margin-right: 200px;
+  margin-right: 6vw;
+  margin-left: 6vw;
 }
 
 #my_video {
-  width: 900px;
+  width: 60%;
   margin-top: 30px;
   margin-left: 20%;
+  margin-right: 20%;
   margin-top: 5px;
 }
 
@@ -89,14 +97,12 @@ p {
 }
 
 hr {
-  content: "";
   background: rgba(255, 255, 255, 0.568);
   height: 7px;
-  width: 38%;
+  width: 40%;
   display: block;
   position: absolute;
   left: 30%;
-  top: 25px;
+  top: 142px;
   z-index: -1;
-  margin-top: 6%;
 }

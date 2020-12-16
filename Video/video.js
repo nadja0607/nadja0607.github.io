@@ -3,7 +3,6 @@ play = document.getElementById("playme");
 jump = document.getElementById("jump");
 jump2 = document.getElementById("jump2");
 
-
 var buttons = ['playme','jump','jump2'];
 
 buttons.forEach(function(bn) {
@@ -42,31 +41,61 @@ function buttonEvents(e) {
     playVideo(timeStart);
 }
 
+myvideo.ontimeupdate = function(){
+    myfunction();
+}
+
+function myfunction(){
+
+    if(myvideo.currentTime > 1 && myvideo.currentTime < 20){
+        play.className = "fa fa-unlock-alt fa-3x";
+        jump.className = "fa fa-lock fa-3x";
+        jump2.className = "fa fa-lock fa-3x";
+    }
+
+    if(myvideo.currentTime > 20 && myvideo.currentTime < 136){
+        play.className = "fa fa-check fa-3x";
+        jump.className = "fa fa-unlock-alt fa-3x";
+        jump2.className = "fa fa-lock fa-3x";
+    }
+
+    if(myvideo.currentTime > 136 && myvideo.currentTime < 218){
+        play.className = "fa fa-check fa-3x";
+        jump.className = "fa fa-check fa-3x";
+        jump2.className = "fa fa-unlock-alt fa-3x";
+    }
+
+    if(myvideo.currentTime > 218){
+        play.className = "fa fa-check fa-3x";
+        jump.className = "fa fa-check fa-3x";
+        jump2.className = "fa fa-check fa-3x";
+
+    }
+}
+
 function playVideo(startTime) {
-    /* set video start time */
+    //set video start time
     myvideo.currentTime = startTime;
-    /* play video */
+    // play video
     myvideo.play();
-//this works only if later circle is clicked, then the previous one gets checked
-//we have to find ways to change it once the video plays past that point
-//also if we go back does the circle coming after that step gets uncheked?
+
+    if(myvideo.currentTime < 20){
+        play.className = "fa fa-unlock-alt fa-3x";
+    }
+
     if (myvideo.currentTime > 20){
-        play.className = "fa fa-check-circle fa-3x";
-       
+        jump.className = "fa fa-unlock-alt fa-3x";
+        play.className = "fa fa-check fa-3x";
     }
    
     if (myvideo.currentTime > 135){
-        jump.className = "fa fa-check-circle fa-3x";
+        jump.className = "fa fa-check fa-3x";
+        jump2.className = "fa fa-unlock-alt fa-3x";
     }
     
-    //also can't figure out how to turn the last one to be checked
     if (myvideo.addEventListener('ended',myHandler,false)){
      function myHandler(e) {
         jump2.className = "fa fa-check-circle fa-3x";
-    }
-       
-    }
-    if (myvideo.currentTime > 135){
-        jump.className = "fa fa-check-circle fa-3x";
+        }   
     }
 }
