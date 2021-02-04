@@ -220,7 +220,7 @@
 	$('#contactForm').validate({
 
 		/* submit via ajax */
-		/* submitHandler: function(form) {
+		submitHandler: function(form) {
 
 			var sLoader = $('#submit-loader');
 
@@ -250,8 +250,8 @@
 		            $('#message-warning').fadeIn();
 	            }
 
-		      }, */
-		      /* error: function() {
+		      },
+		      error: function() {
 
 		      	sLoader.fadeOut(); 
 		      	$('#message-warning').html("Something went wrong. Please try again.");
@@ -262,7 +262,7 @@
 	      });     		
   		}
 
-	}); */
+	});
 
 
  	/*----------------------------------------------------- */

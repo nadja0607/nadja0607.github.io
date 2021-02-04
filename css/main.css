@@ -364,7 +364,7 @@ img.pull-left {
 }
 
 .bgrid {
-  padding: 0 20px;
+  padding: 0 30px;
 }
 @media only screen and (max-width: 1024px) {
   .bgrid {
@@ -2529,10 +2529,6 @@ footer .copyright span:last-child::after {
   }
 }
 
-/**
- * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
 #go-top {
   position: fixed;
   bottom: 0;
@@ -2565,5 +2561,3 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
   background: #000000;
 }
-
-/*# sourceMappingURL=main.css.map */
