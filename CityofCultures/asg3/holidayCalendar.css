@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(75, 34, 41);
+}
+
+.links {
+    background-color:rgb(148, 87, 97);
+    margin: 25%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    
+}   
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(75, 34, 41);
+    
+}
+
+#ll {
+    color: rgb(75, 34, 41);
+    text-align: center;
+    margin-left: 7%;
+    font-size: 18px;
+    font-family: Papyrus;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+#holiday {
+
+    margin-left: 7%;
+    font-size: 14px;
+    margin-bottom: 5%;
+    margin-right: 0;
+}
+
+#display-btn {
+    margin-top: 45px;
+    margin-bottom: 1.5%;
+    background-color: rgb(75, 34, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    float: right;
+    position: relative;
+    
+}
+
+#display-btn:hover {
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+form {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+p {
+    position: relative;
+    background-color: rgba(165, 77, 92, 0);
+    font-family: Papyrus;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#images {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

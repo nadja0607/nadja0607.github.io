@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>City of Cultures</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nadja Fejzic">
+    <!-- making the website responsible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attaching the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <!-- attaching the image for the tab (when site is opened in the browser)-->
+    <link rel="icon" type="image/png" href="../images/siteimage.png">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="page-container">
+            <!-- header -->
+            <div id="header1" class="header">
+                <h1 id="title">Sarajevo: The City Where East Meets West</h1>
+            </div>
+
+            <!-- navigation bar -->
+            <div class="navbar" id="my-navbar">
+                <a href="../index.html">Home</a>
+                <a href="../assignment1/contact.html">Assignment #1</a>
+                <a href="index.html">Assignment #2</a>
+                <a href="../asg3/index.html">Assignment #3</a>
+                <a href="../asg4/index.html">Assignment #4</a>
+                <a href="../asg5/index.html">Assignment #5</a>
+                <a href="../asg6/index.html">Assignment #6</a>
+            </div>
+
+            <!-- changing style button -->
+            <div class="change">
+                <button id="click-button" onclick="change()">Change styles</button>
+            </div>
+
+            <div id="about11" class="about-2" onclick="swapT()">
+                <h2 id="about1">Sarajevo is the capital and economically the strongest city of Bosnia and Herzegovina, a
+                    heart-shaped country located in southeastern Europe, governed by three presidents, each being a
+                    representative of another ethnicity. It’s the place where people are divided by language and
+                    religion, yet all craving world-famous Cevapi meatballs and the aroma of fresh ground coffee beans.
+                    The place where there is a mixture of East and West in the food you eat and the buildings you
+                    observe, where a mosque, a church, and a synagogue stand right next to each other - all due to the
+                    rich history involved, Ottoman Empire and Austro-Hungarian Monarchy. 6th April 1945, the liberation
+                    of Sarajevo in World War II, is known as the Day of the City.</h2>
+
+            </div>
+            <!-- images -->
+            <div class="imgs" style="flex: 10%;">
+                <img id="img1" name="pic" src="../images/trebevic.png" onclick="swapImg()">
+                <img id="img2" name="pic" src="../images/titova.png" onclick="swapImg()">
+            </div>
+
+            <!-- prize button -->
+            <div class="change">
+                <button id="prize-button" onclick="randPrize()">Click to win a prize</button>
+            </div>
+            <div class="about" id="prize"></div>
+
+            <div class="change"><a href="fortuneC.html" id="cookie" style="font-size: 28px;"> Click to get your Fortune Cookie</a></div>
+
+            <div id="about22" class="about-2" style="margin-bottom: 6%;" onclick="swapT()">
+                <h2 id="about2">
+                    During the 1990s, Sarajevo could be found on the front pages of daily newspapers around the
+                    whole
+                    world. This city entered the longest siege since WWII in 1992 during one of the bloodiest wars
+                    in
+                    recent European history. During the siege, in 1995, Sarajevo Film Festival (SFF) was founded.
+                    Today,
+                    it is one of the most prominent and major film festivals in Europe which brings famous
+                    international
+                    and local people to Sarajevo in August every year. This video was made for the SFF and it can
+                    truly
+                    serve as a representation of how finding yourself in Sarajevo feels like.
+                </h2>
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div id="footer" class="footer">
+            <!-- used this idea to keep footer at its place, always at the bottom of the page: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ -->
+            <h1 style="font-size: 16px; margin-top: 20px;">© 2021 Nadja Fejzic</h1>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="asg2.js"></script>
+</body>
+
+</html>

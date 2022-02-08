@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nadja Fejzic">
+    <!-- making the website responsible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attaching the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <!-- attaching the image for the tab (when site is opened in the browser)-->
+    <link rel="icon" type="image/png" href="../images/siteimage.png">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="page-container">
+            <!-- header -->
+            <div id="header1" class="header">
+                <h1 id="title">Quiz</h1>
+            </div>
+
+            <div class="container"
+                style="margin: 20px; margin-bottom: 80px; margin-top: 70px; margin-left: 20%; margin-right: 20%;">
+                <form action="quiz.php" method="post">
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="fname">First Name:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="fname" name="fname">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="lname">Last Name:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="lname" name="lname">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="html1">1. What does HTML stand for?</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o1" name="html1" value="Home Tool Markup Language">
+                        <label for="o1">Home Tool Markup Language</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o2" name="html1" value="Hyperlinks and Text Markup Language">
+                        <label for="o2">Hyperlinks and Text Markup Language</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o3" name="html1" value="Hyper Text Markup Language">
+                        <label for="o3">Hyper Text Markup Language</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="html2">2. Choose the correct HTML element for the largest heading:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o21" name="html2" value="h1">
+                        <label for="o21">h1</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o22" name="html2" value="head">
+                        <label for="o22">head</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o23" name="html2" value="heading">
+                        <label for="o23">heading</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o24" name="html2" value="h6">
+                        <label for="o24">h6</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="html3">3. Inline elements are normally displayed without starting a new line.</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o31" name="html3" value="True">
+                        <label for="o31">True</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o32" name="html3" value="False">
+                        <label for="o32">False</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="html4">4. An iframe is used to display a web page within a web page.</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o41" name="html4" value="True">
+                        <label for="o41">True</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o42" name="html4" value="False">
+                        <label for="o42">False</label>
+                    </div>
+                    <div class="row">
+                        <input type="radio" id="o43" name="html4" value="There is no such thing as iframe">
+                        <label for="o43">There is no such thing as iframe.</label>
+                    </div>
+                    
+
+                    <input type=submit value=submit> <input type=reset value=reset>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div id="footer" class="footer">
+            <!-- used this idea to keep footer at its place, always at the bottom of the page: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ -->
+            <h1 style="font-size: 16px; margin-top: 20px;">© 2021 Nadja Fejzic</h1>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

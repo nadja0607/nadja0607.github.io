@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Holiday Calendar</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nadja Fejzic">
+    <!-- making the website responsible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attaching the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="holidayCalendar.css">
+    <!-- attaching the image for the tab (when site is opened in the browser)-->
+    <link rel="icon" type="image/png" href="../images/siteimage.png">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="page-container">
+            <!-- header -->
+            <div id="header1" class="header">
+                <h1 id="title">NYU Holiday Calendar</h1>
+            </div>
+
+            <div id="labels" class="about-2">
+                <h2>
+                    Choose the date you want to check - NYU holiday or not (2021/2022)
+                </h2>
+            </div>
+            <div class="about-2">
+                <form>
+                    <label for="holiday" id="ll">Select the Date</label>
+                    <input type=date id=holiday>
+
+                </form>
+
+                <button id="display-btn" onclick="displayHoliday()">Check</button>
+                
+
+            </div>
+            <p id="output"></p>
+            <div id="images"></div>
+            
+
+        </div>
+    </div>
+
+    <script src="holidayCalendar.js" type="text/javascript" ></script>
+</body>
+
+</html>

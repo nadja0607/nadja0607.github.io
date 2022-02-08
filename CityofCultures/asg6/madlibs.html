@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mad Libs</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nadja Fejzic">
+    <!-- making the website responsible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attaching the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="madlibs.css">
+    <!-- attaching the image for the tab (when site is opened in the browser)-->
+    <link rel="icon" type="image/png" href="../images/siteimage.png">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="page-container">
+            <!-- header -->
+            <div id="header1" class="header">
+                <h1 id="title">Mad Libs Game</h1>
+            </div>
+
+            <div class="container"
+                style="margin: 20px; margin-bottom: 80px; margin-top: 70px; margin-left: 20%; margin-right: 20%;">
+                <form action="madlibs.php" method="post">
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="adj">Enter an adjective:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="adj" name="adj">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="second-adj">Enter another adjective:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="second-adj" name="second-adj">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="noun">Enter a noun:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="noun" name="noun">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="verb">Enter a verb in past:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="verb" name="verb">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="second-noun">Enter anonther noun:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="second-noun" name="second-noun">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="num">Enter a number:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="number" id="num" name="num">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="second-verb">Enter a second verb (gerund):</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="second-verb" name="second-verb">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="third-noun">Enter a third noun:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="third-noun" name="third-noun">
+                    </div>
+
+                    <input type=submit value=submit> <input type=reset value=reset>
+
+                </form>
+               
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div id="footer" class="footer">
+            <!-- used this idea to keep footer at its place, always at the bottom of the page: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ -->
+            <h1 style="font-size: 16px; margin-top: 20px;">© 2021 Nadja Fejzic</h1>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

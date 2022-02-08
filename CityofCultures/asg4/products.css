@@ -1,0 +1,139 @@
+.intro {
+    font-size: 16px; 
+    text-align: center; 
+    margin-left: 8px; 
+    margin-right: 8px;
+    padding-bottom: 0;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    color: whitesmoke;
+}
+
+.souvenir {
+    width: 300px;
+  
+}
+
+@media screen and (max-width: 750px){
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 1000px){
+    .souvenir {
+        width: 400px;
+    }
+   
+}
+
+.subs {
+    width: 20px;
+}
+
+input[type=text], select, textarea {
+
+    width: 170px;
+    margin-top: 50px;
+}
+
+input[type=tel], select, textarea {
+
+    width: 170px;
+    margin-top: 50px;
+}
+input[type=email] {
+
+    width: 170px;
+    margin-top: 50px;
+}
+
+input[type=number] {
+
+    width: 170px;
+    margin-top: 50px;
+}
+
+#copper, #shirt, #magnet, #rug {
+    
+        padding: 5px;
+        width: 20px;
+        margin-top: 3%;
+        border: 1px solid #ccc;
+        border-radius: 3px; /* to make curvy edges */
+}
+
+#phone, #email, #zip {
+    
+        padding: 12px;
+       
+        margin-top: 3%;
+        border: 1px solid #ccc;
+        border-radius: 4px; /* to make curvy edges */
+        resize: vertical;
+    }
+
+.l3 {
+    color: rgb(75, 34, 41);;
+}
+
+input[type=reset]{
+    margin-top: 2%;
+    margin-right: 5px ;
+    background-color: rgb(75, 34, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=reset]:hover{
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+@media screen and (max-width: 750px){
+   input[type=reset] {
+      width: 100%;
+      margin-top: 5px;
+      margin-right: 0;
+    }
+}
+
+.price, .subtotal {
+    border: 1px solid #ccc;
+    border-radius: 3px; /* to make curvy edges */
+    font-size: 16px;
+}
+
+.subtotal{
+    padding: 5px;
+    
+}
+
+img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+#receipt {
+    background-color: rgb(243, 190, 198);
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(75, 34, 41);
+}

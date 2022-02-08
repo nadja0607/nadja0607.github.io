@@ -1,0 +1,61 @@
+#special {
+    margin: 15px;
+    margin-top: 4%;
+    padding-bottom: 3%;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 5%;
+    background-color: rgba(75, 34, 41, 0.514);
+}
+
+p {
+    padding: 6%;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#hide, #show, #fadeout, #ani {
+    background-color: rgb(75, 34, 41);
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Papyrus;
+    padding: 10px;
+    border-radius: 4px;
+    width: 150px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+#hide:hover, #show:hover, #fadeout:hover, #ani:hover {
+    background-color: rgba(75, 34, 41, 0.699);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#animation{
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 200px;
+}
+
+#ani {
+    margin-left: 300px;
+    margin-bottom: 200px;
+}
+
+#pi {
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#pi:hover {
+    color: whitesmoke;
+}

@@ -1,0 +1,21 @@
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(75, 34, 41);
+    font-size: 22px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(75, 34, 41);
+}
+
+.header {
+    padding: 20px;
+}
+

@@ -1,0 +1,52 @@
+ul {
+    background-color: rgb(75, 34, 41);
+	border:none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	background-color: rgb(75, 34, 41);
+	color: #fff;
+	border-top: 1px solid rgb(243, 190, 198);
+	border-bottom: 1px solid rgb(243, 190, 198);
+	font-size: 24px;
+	letter-spacing: .05em;
+	list-style-type: none;
+	text-shadow: 2px 2px 1px rgb(134, 63, 74);
+	height: 50px;
+
+	padding-top: 10px;
+    text-align: center;
+
+}
+
+button {
+    margin-top: 2%;
+    background-color: rgb(75, 34, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+      
+button:hover{
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+@media screen and (max-width: 700px){
+    button {
+        float: right;
+    }
+}
+
+.change {
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+    text-shadow: 2px 2px 1px rgb(134, 63, 74);
+    border-top: 1px solid rgb(243, 190, 198);
+    border-bottom: 1px solid rgb(134, 63, 74);
+}

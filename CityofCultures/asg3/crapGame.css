@@ -1,0 +1,74 @@
+label {
+    
+    color: rgb(75, 34, 41);
+    font-size: 20px;
+}
+
+input {
+    height: 25px;
+    width: 90px;
+}
+
+#bet-form {
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+
+.dice {
+    
+    margin-left: 40%;
+    position: relative;
+    margin-top: 30px ;
+    margin-right: 30%;
+}
+
+#die1 {
+    margin-right: 10px;
+
+}
+
+#display-btn {
+    margin-left: 6%;
+    background-color: rgb(75, 34, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+#display-btn:hover {
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+#output {
+    text-align: center;
+    color: whitesmoke;
+    
+    font-size: 24px;
+    font-family: Papyrus;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+p {
+    margin-top: 15px;
+    background-color: rgb(75, 34, 41);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#message {
+    text-align: center;
+    color: rgb(75, 34, 41);
+    font-size: 24px;
+    font-family: Papyrus;
+    padding: 5px;
+}

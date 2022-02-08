@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(75, 34, 41);
+}
+
+.links {
+    background-color:rgb(148, 87, 97);
+    margin: 25%;
+    margin-top: 0;
+    margin-bottom: 2%;
+    
+}   
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(75, 34, 41);
+}

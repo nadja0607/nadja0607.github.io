@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nadja Fejzic">
+    <!-- making the website responsible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- attaching the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <!-- attaching the image for the tab (when site is opened in the browser)-->
+    <link rel="icon" type="image/png" href="../images/siteimage.png">
+</head>
+
+<body>
+
+    <div id="con">
+        <div id="page-container">
+            <!-- header -->
+            <div id="header1" class="header">
+                <h1 id="title">Calculator</h1>
+            </div>
+
+            <div class="container"
+                style="margin: 20px; margin-bottom: 80px; margin-top: 70px; margin-left: 20%; margin-right: 20%;">
+                <form action="add.php" method="post">
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="num1">Enter number 1:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="num1" name="num1" style="width: 100px ;">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="num2">Enter number 2:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="num2" name="num2" style="width: 100px ;">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-50">
+                            <label for="operator">Select an operator:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <select id="operator" name="operator">
+                            <option value="blank"></option>
+                            <option value="plus" id="plus">+</option>
+                            <option value="minus" id="minus">-</option>
+                            <option value="multiply" id="multiply">*</option>
+                            <option value="divide" id="divide">/</option>
+                        </select>
+                    </div>
+
+
+            <input type=submit value=submit> <input type=reset value=reset>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div id="footer" class="footer">
+        <!-- used this idea to keep footer at its place, always at the bottom of the page: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ -->
+        <h1 style="font-size: 16px; margin-top: 20px;">© 2021 Nadja Fejzic</h1>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
