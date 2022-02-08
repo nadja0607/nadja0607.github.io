@@ -1,10 +1,6 @@
 # nadja0607.github.io
 
-IM Portfolio
-
-Communications Lab / Interactive Media - Fall 2020 NYU AD
-Professor: Michael Ang
-Student: Nadja Fejzic - nf1108
+My Portfolio (Includes projects for Interactive Media classes)
 
 Project Name: IM Portfolio & 30-minute Film Festival (30FF)
 
