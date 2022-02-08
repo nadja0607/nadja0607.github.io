@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 190, 198);
+    margin: 0;
+    height: 100%;
+   
+}
+
+.header{
+    background: rgb(165, 77, 91);
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+    
+}
+
+h1{
+    padding-top: 0px;
+    margin: 0px;
+    font-family: Papyrus;
+}
+
+.navbar{
+    display: flex;
+    background: rgb(75, 34, 41);
+    justify-content:center;
+}
+
+/* style of navigation bar links */
+.navbar a {
+  color: whitesmoke;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* changing the style of the navigation bar on hover */
+.navbar a:hover{
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(75, 34, 41);
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    height: 60px;
+}
+
+#trebevic{
+    float: right;
+    margin: 4%;
+    margin-bottom: 1%;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#titova{
+    float: right;
+    width: 450px;
+    margin-top: 5%;
+}
+
+/* using media query to make website responsive */
+@media only screen and (max-width: 768px){
+    .navbar, #trebevic, .about {   
+      flex-direction: column;
+    }
+    #about2, #about1 {
+        text-align: left;
+    }
+  }
+
+#con{
+    min-height:100%;
+    position:relative;    
+}
+
+#page-container{ 
+        height: relative; 
+        padding-bottom: 30px; 
+         
+}
+
+#page-container2{ 
+    height: 1200px; 
+    padding-bottom: 30px;
+}
+
+h2{
+    padding: 2%;
+    margin-left: 0%;
+    font-family: Papyrus;
+    font-size: 18px;
+    margin-right: 0%;
+    text-align: justify;
+}
+
+.about{
+    margin:3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    background-color: rgba(165, 77, 92, 0.356);
+   
+}
+
+img{
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
+.video{
+    margin: 5%;
+    width: auto;
+    height: auto ;
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+
+.video.iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+input[type=text], select, textarea{
+    padding: 12px;
+    width: 100%;
+    margin-top: 3%;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* to make curvy edges */
+    resize: vertical;
+}
+
+
+  
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: whitesmoke;
+}
+  
+input[type=submit]{
+    margin-top: 2%;
+    background-color: rgb(75, 34, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+input[type=submit]:hover{
+    background-color: whitesmoke;
+    color: rgb(75, 34, 41);
+}
+
+.container{ /* for the form */
+    border-radius: 5px;
+    background-color: rgb(165, 77, 91);
+    padding: 40px;
+    margin: 6%;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+
+.container-textbox {
+    display: flex;
+    flex-direction: row;
+}
+  
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    color: whitesmoke;
+}
+  
+.col-75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+  
+/* Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px){
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+#carsija{
+      width: 450px;
+      float: right;
+      margin-top: 4%;
+      margin-bottom: 4%;
+}
+
+#click-button, #prize-button{
+    background-color: rgb(75, 34, 41);
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Papyrus;
+    padding: 10px;
+    border-radius: 4px;
+    width: 150px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}   
+
+#prize-button {
+    width: fit-content;
+    margin-top: 0;
+}
+
+#click-button:hover, #prize-button:hover {
+    background-color: rgba(75, 34, 41, 0.699);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.change {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin:3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    background-color: rgba(165, 77, 92, 0.356);
+}
+
+#img1, #img2 {
+    
+    width: 350px;
+    height: 210px;
+}
+
+#img2{
+    margin-right: 0px;
+}
+
+.about-2{
+    margin:3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    background-color: rgba(165, 77, 92, 0.356);
+    display: flex;
+}
+
+.imgs {
+    margin:3%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+}
+
+#cookie {
+    color: whitesmoke;
+}
+
+#cookie:hover {
+    color: teal;
+}
